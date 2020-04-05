@@ -1,0 +1,27 @@
+{
+  "name": "competitive-coding",
+  "version": "1.0.0",
+  "description": "Codeforce bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityamudgil2505/Competitive-coding.git"
+  },
+  "keywords": [
+    "coding",
+    "programming"
+  ],
+  "author": "Aditya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityamudgil2505/Competitive-coding/issues"
+  },
+  "homepage": "https://github.com/adityamudgil2505/Competitive-coding#readme",
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
