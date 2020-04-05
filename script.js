@@ -41,6 +41,8 @@ problemDirectory = async (url) => {
       inputTestCases.each(function(i, elem){  createFile(__dirname+'/'+problemName + '/inp' + i + '.txt', $(this).find('pre').text())});
       outputTestCases.each(function(i, elem){ createFile(__dirname+'/'+problemName + '/out' + i + '.txt', $(this).find('pre').text())});
       createFile(__dirname+'/'+problemName + '/solution.cpp', template);
+      createFile(__dirname+'/'+problemName + '/customInput.txt', template);
+      createFile(__dirname+'/'+problemName + '/customOutput.txt', "");
     });
     console.log(`Problem: ${problemName} \t Test Cases: ${inputTestCases.length}`);
   }
