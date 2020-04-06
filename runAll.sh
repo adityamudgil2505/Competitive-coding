@@ -47,3 +47,7 @@ then
 else
   echo "\033[31mFailed to run on all test cases\033[0m"
 fi
+echo "\n\033[93mComparing your answer with the testcases\033[0m"
+cd ..
+./diff.sh $1
+cd ..
