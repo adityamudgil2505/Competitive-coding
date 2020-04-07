@@ -18,34 +18,30 @@
 #include <cmath>
 #include <cstdio>
 
-#define fastio 					{ios_base::sync_with_stdio(false); cin.tie(NULL);}
-#define ff							first
-#define ss      				second
-#define int							long long
-#define pb							push_back
+#define fastio 			{ios_base::sync_with_stdio(false); cin.tie(NULL);}
+#define ff				first
+#define ss 				second
+#define pb				push_back
 #define pqmax           priority_queue<ll>
 #define pqmin           priority_queue<ll,vector<ll>,greater<ll> >
 #define setbits(x)      __builtin_popcountll(x)
 #define mod             1000000007
-#define PI 							3.1415926535897932384626
+#define PI 				3.1415926535897932384626
 #define inf             1e18
 #define ps(x,y)         fixed<<setprecision(y)<<x
-#define deb(x) 					cout << #x << "=" << x << endl
-#define deb2(x, y) 			cout << #x << "=" << x << "," << #y << "=" << y << endl
+#define deb(x) 			cout << #x << "=" << x << endl
+#define deb2(x, y)		cout << #x << "=" << x << "," << #y << "=" << y << endl
 
 using namespace std;
 using ll = long long;
 
 
-
 void solve(){
 	ll t;	cin>>t;
 	while(t--){
-
+		vector<char> v;
 	}
-	
 }
-
 
 int main(){
 	fastio;
