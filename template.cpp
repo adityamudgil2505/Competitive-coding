@@ -35,11 +35,14 @@
 using namespace std;
 using ll = long long;
 
+ll min(ll a, ll b){
+	if(a<b)	return a;
+	return b;
+}
 
 void solve(){
-	ll t;	cin>>t;
-	while(t--){
-		vector<char> v;
+	ll testCases;	cin>>testCases;
+	while(testCases--){
 	}
 }
 
