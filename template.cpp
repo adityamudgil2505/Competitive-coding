@@ -28,6 +28,7 @@
 #define mod             1000000007
 #define PI 				3.1415926535897932384626
 #define inf             1e18
+#define N             	1e6
 #define ps(x,y)         fixed<<setprecision(y)<<x
 #define deb(x) 			cout << #x << "=" << x << endl
 #define deb2(x, y)		cout << #x << "=" << x << "," << #y << "=" << y << endl
@@ -45,7 +46,6 @@ void solve(){
 	while(testCases--){
 	}
 }
-
 int main(){
 	fastio;
 	solve();
