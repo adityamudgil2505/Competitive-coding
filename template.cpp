@@ -30,8 +30,6 @@
 #define inf             1e18
 #define N             	1e6
 #define ps(x,y)         fixed<<setprecision(y)<<x
-#define deb(x) 			cout << #x << "=" << x << endl
-#define deb2(x, y)		cout << #x << "=" << x << "," << #y << "=" << y << endl
 
 using namespace std;
 using ll = long long;
@@ -42,12 +40,15 @@ ll min(ll a, ll b){
 }
 
 void solve(){
-	ll testCases;	cin>>testCases;
-	while(testCases--){
-	}
+	
 }
+
 int main(){
 	fastio;
-	solve();
+	ll testCases;	cin>>testCases;
+	for(int i=1; i<=testCases; i++){
+		// cout<<i<<" ";
+		solve();
+	}	
 	return 0;
 }

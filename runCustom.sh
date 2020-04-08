@@ -1,6 +1,7 @@
 #!/bin/bash
 compiledFile="./a.out"
 timeoutVal=3
+cp customInput.txt  ./$1/customInput.txt
 cd ./$1
 
 # Deleting previous executable file (if exists)
@@ -26,3 +27,5 @@ else
   runtime=$(echo "$end - $start" | bc)  
   echo "\033[36mSuccessfully\033[0m run on \t\033[33mCustom Testcase \033[0m \t Time taken: $runtime seconds"
 fi
+cd ../
+cp ./$1/customOutput.txt customOutput.txt

@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const template = fs.readFileSync(__dirname + '/template.cpp');
 
-const contestURL = 'http://codeforces.com/contest/1331';
+const contestURL = 'http://codeforces.com/contest/1328';
 
 questionsList = async (url) => {
   try{

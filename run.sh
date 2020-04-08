@@ -1,0 +1,1 @@
+[ $2 == 'c' ] && sh runCustom.sh $1 || sh runAll.sh $1
