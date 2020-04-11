@@ -19,7 +19,7 @@ This bot will help you to easily set up a competitive coding platform for CodeFo
 1. Install nodejs. [https://nodejs.org/en/download/]
 2. Check if nodejs and npm install properly using `node --version` and `npm --version`
 
-3. Now Download the package from the release. 
+3. Now Download the package from the [release](https://github.com/adityamudgil2505/Competitive-coding/releases). 
 4. Go open the directory in any text editor (Recommend Sublime Text Editor).
 5. Install `npm install`.
 6. You can edit template.cpp according to your needs.
