@@ -48,6 +48,15 @@ This bot will help you to easily set up a competitive coding platform for CodeFo
 5. Run the following command `node script`
 
 ### Screenshots
+Overview
 ![alt Overview](/screenshots/Overview.png)
+Running code on all test cases
+
+
 ![alt Running code on test cases](/screenshots/Execution.png)
+
+
+
+Comparing your output with actual output
+
 ![alt Comparing output](/screenshots/Comparing.png)
