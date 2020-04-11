@@ -46,3 +46,8 @@ This bot will help you to easily set up a competitive coding platform for CodeFo
 3. Run the following command `rm -rf {A..Z}`
 4. Edit contest URL in script.js file `const contestURL = 'http://codeforces.com/contest/1328';`
 5. Run the following command `node script`
+
+### Screenshots
+![alt Overview](/screenshots/Overview.png)
+![alt Running code on test cases](/screenshots/Execution.png)
+![alt Comparing output](/screenshots/Comparing.png)
