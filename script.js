@@ -1,9 +1,10 @@
+require('dotenv').config()
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 const template = fs.readFileSync(__dirname + '/template.cpp');
 
-const contestURL = 'http://codeforces.com/contest/1328';
+const contestURL = process.env.CONTEST_URL;
 
 questionsList = async (url) => {
   try{
@@ -51,6 +52,7 @@ problemDirectory = async (url) => {
 }
 
 solution = async () => {
+  console.log(contestURL);
   const questionsURL = await questionsList(contestURL);  
   questionsURL.forEach(async elem => {
     await problemDirectory('http://codeforces.com' + elem);
