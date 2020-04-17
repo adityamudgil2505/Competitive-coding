@@ -9,7 +9,7 @@ This bot will help you to easily set up a competitive coding platform for CodeFo
 
 ## Limitation
 - Language: C++
-- Coding Plateform: Codeforces.
+- Coding Plateform: Codeforces
 
 ## Skills used
 - NodeJS
@@ -27,25 +27,20 @@ This bot will help you to easily set up a competitive coding platform for CodeFo
 
 ## How to use
 1. Open the directory in Sublime Text Editor.
-2. Open 'script.js' file and enter the contest link in variable name contestURL like this
-`const contestURL = 'http://codeforces.com/contest/1328';`
-
-3. Open the terminal inside sublime text editor (you need to install Terminus package, this will be helpful).
-4. Run the following command in the terminal `node script`. This will create all the directory and download the test cases.
-5. Open customInput.txt and customOutput.txt along with solution.cpp of any of these newly created folders ie, A, B, ...
-6. Now write your code in solution.cpp
-7. Now to run this, we have two options:
+2. Open the terminal inside sublime text editor (you need to install Terminus package, this will be helpful).
+3. Run the following command in the terminal `sh reset.sh <contest-url>`. For example `sh reset.sh https://codeforces.com/contest/1329`. This will create all the directory and download the test cases.
+4. Open customInput.txt and customOutput.txt along with solution.cpp of any of these newly created folders ie, A, B, ...
+5. Now write your code in solution.cpp
+6. Now to run this, we have two options:
 - To run code on custom test case `sh run.sh <ProblemName> c` example `sh run.sh A c`
 - To run code on all test cases `sh run.sh <ProblemName>` example `sh run.sh A`
-8. The difference between your output and expected output will be shown in the terminal. To navigate between files, press `gt` in terminal. Next enter command `:qa` to proceed forward.
+7. The difference between your output and expected output will be shown in the terminal. To navigate between files, press `gt` in terminal. Next enter command `:qa` to proceed forward.
 
 
 ## How to reuse this bot
 1. Open the directory in Sublime Text Editor.
 2. Open the terminal inside sublime text editor (you need to install Terminus package, this will be helpful).
-3. Run the following command `rm -rf {A..Z}`
-4. Edit contest URL in script.js file `const contestURL = 'http://codeforces.com/contest/1328';`
-5. Run the following command `node script`
+3. Run the following command `sh reset.sh <contest_url>`. For example `sh reset.sh https://codeforces.com/contest/1329`
 
 ### Screenshots
 Overview
