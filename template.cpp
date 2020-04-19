@@ -52,15 +52,15 @@ typedef vector<VI> VVI;
 typedef vector<ll> VLL;
 typedef vector<pair<int, int> > VPII;
 typedef vector<pair<ll, ll> > VPLL;
-typedef Triple<int, int, int> TIII;
 
 template<class T1> ostream& operator<< (ostream &out, vector<T1> vec){	for(auto e: vec)	out<<e<<" ";	return out<<"\n";}
 template<class T1, class T2> ostream& operator<< (ostream &out, pair<T1, T2> pair) { return out << "(" << pair.first << ", " << pair.second << ")";}
 template<class A, class B, class C> struct Triple { 
 	A first; B second; C third;
-	bool operator<(const Triple& t) const { if (st != t.st) return st < t.st; if (nd != t.nd) return nd < t.nd; return rd < t.rd; }
+	bool operator<(const Triple& t) const { if (ff != t.ff) return ff < t.ff; if (ss != t.ss) return ss < t.ss; return tt < t.tt; }
 };
-template<class A, class B, class C> ostream& operator<< (ostream &out, Triple<A, B, C> t) { return out << "(" << t.st << ", " << t.nd << ", " << t.rd << ")"; }
+typedef Triple<int, int, int> TIII;
+template<class A, class B, class C> ostream& operator<< (ostream &out, Triple<A, B, C> t) { return out << "(" << t.ff << ", " << t.ss << ", " << t.tt << ")"; }
 
 ll min(ll a, ll b){
 	if(a<b)	return a;
