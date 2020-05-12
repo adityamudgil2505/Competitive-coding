@@ -55,3 +55,7 @@ Running code on all test cases
 Comparing your output with actual output
 
 ![alt Comparing output](/screenshots/Comparing.png)
+
+## Errors
+If error `gdate: command not found` occur then type following code in command line
+for Mac users `brew install coreutils` 
