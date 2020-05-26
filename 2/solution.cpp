@@ -19,6 +19,7 @@
 #include <cstdio>
 #include <iomanip>
 
+
 #define int 			long long
 #define abs				llabs
 #define fastio 			{ios_base::sync_with_stdio(false); cin.tie(NULL);}
@@ -32,9 +33,8 @@
 #define firstLeftBitIdx(x) 32-__builtin_clz(x)
 #define mod             1000000007
 #define PI 				3.1415926535897932384626
-#define inf18           1e18
-#define inf9            1e9
-#define inf6			1e6
+#define inf             1e18
+#define N             	1e6
 #define ps(x,y)         fixed<<setprecision(y)<<x
 #define FOR(i, a, b) 	for(int i =(a); i <=(b); ++i)
 #define FORR(i, a, b) 	for(int i = (a); i >= (b); --i)
@@ -71,7 +71,11 @@ ll max(ll a, ll b){
 	return b;
 }
 
-void solve(){
+double solve(){
+	double n;	cin>>n;
+	double ans= cos(PI/(4*n));
+	ans /= sin(PI/(2*n));
+	return ans;
 }
 
 int32_t main(){
@@ -79,8 +83,8 @@ int32_t main(){
 	ll testCases;	cin>>testCases;
 	for(int i=1; i<=testCases; i++){
 		// cout<<i<<" ";
-		// cout<<solve()<<"\n";
-		solve();
+		cout<<ps(solve(),6)<<"\n";
+		// solve();
 	}	
 	return 0;
 }

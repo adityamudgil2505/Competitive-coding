@@ -1,0 +1,7 @@
+[
+	{ "keys": ["super+shift+t"], "command": "toggle_terminus_panel" },
+	{ "keys": ["super+b"], "command": "toggle_side_bar" },
+	{ "keys": ["shift+alt+down"], "command": "duplicate_line" },
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+]
